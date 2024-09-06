@@ -1,0 +1,10 @@
+cadastro = input('Você quer fazer um cadastro "sim" ou "não"? ')
+
+if cadastro == 'sim':
+    print('iniciando o sistema !')
+
+elif cadastro == 'não':
+    print('Saindo do sistema !')
+
+else:
+    print('Você não digitou nem sim e nem não ! ' )
